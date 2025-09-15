@@ -2,7 +2,6 @@ apiVersion: viaduct.ai/v1
 kind: ksops
 metadata:
   name: secret-generator
-  namespace: argocd
   annotations:
     config.kubernetes.io/function: |
       exec:
