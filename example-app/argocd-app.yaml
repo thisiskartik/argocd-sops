@@ -10,7 +10,7 @@ spec:
     targetRevision: main
     path: example-app
   destination:
-    server: https://127.0.0.1:6443 
+    server: https://kubernetes.default.svc
     namespace: default
   syncPolicy:
     automated:
