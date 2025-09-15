@@ -7,5 +7,5 @@ metadata:
     config.kubernetes.io/function: |
       exec:
         path: ksops
-files:
-  - secret.yaml
+        files:
+          - secret.yaml
