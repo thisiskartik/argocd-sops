@@ -15,6 +15,7 @@ spec:
       containers:
       - name: app
         image: myapp:latest
+        imagePullPolicy: Never
         envFrom:
         - secretRef:
             name: database-credentials
