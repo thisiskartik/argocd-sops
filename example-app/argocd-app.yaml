@@ -9,6 +9,8 @@ spec:
     repoURL: https://github.com/thisiskartik/argocd-sops
     targetRevision: main
     path: example-app
+    kustomize:
+      buildOptions: --enable-alpha-plugins --enable-exec
   destination:
     server: https://kubernetes.default.svc
     namespace: default
